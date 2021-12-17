@@ -32,7 +32,7 @@ def from_template(brand, model, fuel_consumption, price, template, signature):
 
 
 def generate_report(brand, model, fuel_consumption, price):
-    template = 'data.docx'
+    template = 'report.docx'
     signature = 'skoda.jpeg'
     document = from_template(brand, model, fuel_consumption, price, template, signature)
 
